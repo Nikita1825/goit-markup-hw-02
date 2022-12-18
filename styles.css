@@ -160,7 +160,9 @@ color: var(--wait);
 }
 .ending {
     background: var(--title-text-color);
+
 }
+
 /* ------------Porfolio */
 .logo-web {
     font-family: 'Raleway';
