@@ -2,15 +2,19 @@
     --prime-text-color: #434455;
     --title-text-color:#2E2F42;
     --accent-color: #4D5AE5;
-    --wait-text: #FFFFFF;
-    --wait:#F4F4FD;
-    --wait-background: #E7E9FC;
+    --white-text: #FFFFFF;
+    --white:#F4F4FD;
+    --white-background: #E7E9FC;
+    --background-total: #E5E5E5;
 }
-
 
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--title-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    background: var(--background-total)
 }
 .list {
     list-style: none;
@@ -20,30 +24,28 @@ body {
     
 }
 
-.Web {
+.web {
 font-family: 'Raleway';
 font-weight: 800;
 font-size: 18px;
 line-height: 1.33;
-letter-spacing: 0.03em;
 color: var(--accent-color);
 }
-.Studio {
+.studio {
 font-family: 'Raleway' sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.33;
-letter-spacing: 0.03em;
+
 text-transform: uppercase;
 color: var(--title-text-color);
 }
 .header {
-background-color: var(--wait-text);
+background-color: var(--white-text);
 }
 .header-link {
  font-weight: 600;
-font-size: 16px;
-line-height: 1.5;
+
 letter-spacing: 0.02em;
 color: var(--title-text-color);
 }
@@ -55,15 +57,13 @@ color: var(--title-text-color);
 }
 .header-mailto {
     font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
+
 letter-spacing: 0.02em;
 color: var(--prime-text-color);
 }
 .header-tel {
 font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
+
 letter-spacing: 0.02em;
 color: var(--prime-text-color);
 }
@@ -73,7 +73,7 @@ color: var(--prime-text-color);
 .contact-list:focus {
     color: var(--accent-color);
 }
-.hero-section1 {
+.hero-section-one {
     background-color: var(--title-text-color);
 }
 .hero-title {
@@ -81,7 +81,7 @@ font-weight: 600;
 font-size: 56px;
 line-height: 1.09;
 letter-spacing: 0.02em;
-color: var(--wait-text);
+color: var(--white-text);
 }
 .hero-btn {
 font-family: 'Roboto';
@@ -89,16 +89,18 @@ font-weight: 600;
 font-size: 16px;
 line-height: 1.18;
 letter-spacing: 0.04em;
-color: var(--wait-text);
+color: var(--white-text);
 cursor: pointer;
+background: var(--accent-color);
 border: none;
 
 }
-.hero-btn {
-background: var(--accent-color);
+.hero-btn:hover {
+    color: var(--accent-color);
+    background: var(--white); 
 }
 
-.hero-title2 {
+.hero-title-two {
 font-weight: 600;
 font-size: 20px;
 line-height: 1.2;
@@ -106,10 +108,7 @@ letter-spacing: 0.02em;
 color: var(--title-text-color);
 }
 .hero-text {
-
 font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--prime-text-color);
 }
@@ -126,37 +125,30 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--title-text-color);
-background-color: var(--wait-text);
+background-color: var(--white-text);
 }
 .hero-section-team {
-
-background: var(--wait);
+background: var(--white);
 }
 .activity {
 font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--prime-text-color);
 }
 .ending-text {
-
 font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--wait-background);
+color: var(--white-background);
 }
 .team-link {
-background: var(--wait-text);
+background: var(--white-text);
 }
-.Studio-ending {
+.studio-ending {
 font-family: 'Raleway'sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 21px;
-letter-spacing: 0.03em;
-color: var(--wait);
+color: var(--white);
 }
 .ending {
     background: var(--title-text-color);
@@ -169,33 +161,28 @@ color: var(--wait);
    font-weight: 800;
     font-size: 18px;
     line-height: 1.3;
-    letter-spacing: 0.03em;
-    color: var(--accent-color)
+color: var(--accent-color)
 }
 .logo-studio {
-    font-family: 'Raleway';
+    font-family: 'Raleway' sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.3;
-letter-spacing: 0.03em;
+text-transform: uppercase;
 color: var(--title-text-color)
 }
 .cap {
-    background: var(--wait-text);
+    background: var(--white-text);
 }
 .cap-list {
     font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--title-text-color); 
 }
-.cap-list:hover {
+.cap-list:hover, .cap-list:focus  {
     color: var(--accent-color);
 }
-.cap-list:focus {
-    color: var(--accent-color);
-}
+
 .list {
     list-style: none;
 }
@@ -204,28 +191,22 @@ color: var(--title-text-color)
     }
 .contact{
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+   letter-spacing: 0.02em;
     color: var(--prime-text-color); 
 }
 .midle-btn {
 font-family: 'Roboto';
 font-weight: 600;
-font-size: 16px;
-line-height: 1.5;
 letter-spacing: 0.04em;
 cursor: pointer;
 color: var(--accent-color)
-
-
 }
 .midle-btn:hover,.midle-btn:focus {
-   color: var(--wait-text); 
+   color: var(--white-text); 
    background: var(--accent-color)
 }
 .midle-item {
-    background-color:var(--wait-text);
+    background-color:var(--white-text);
 }
 .midle-description{
 font-weight: 600;
@@ -236,8 +217,6 @@ color: var(--title-text-color)
 }
 .midle-text {
 font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--prime-text-color)
 }
@@ -246,6 +225,5 @@ color: var(--prime-text-color)
 font-weight: 800;
 font-size: 18px;
 line-height: 1.16;
-letter-spacing: 0.03em;
-color: var(--wait)
+color: var(--white)
 }
