@@ -55,13 +55,13 @@ color: var(--title-text-color);
 .header-link:focus {
     color: var(--accent-color);
 }
-.header-mailto {
+.contact {
     font-weight: 400;
 
 letter-spacing: 0.02em;
 color: var(--prime-text-color);
 }
-.header-tel {
+.contact  {
 font-weight: 400;
 
 letter-spacing: 0.02em;
@@ -182,7 +182,7 @@ color: var(--title-text-color)
 .cap-list:hover, .cap-list:focus  {
     color: var(--accent-color);
 }
-.contact:hover {
+.contact:hover, .contact:focus  {
     color: var(--accent-color)
 }
 
