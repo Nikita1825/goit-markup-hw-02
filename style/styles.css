@@ -7,6 +7,13 @@
     --white-background: #E7E9FC;
     --background-total: #E5E5E5;
 }
+p,h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding-left: 0;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -16,6 +23,12 @@ body {
     letter-spacing: 0.03em;
    
 }
+.container {
+    width: 1158px; 
+    padding-left: 15;
+    padding-right: 15;
+    outline: 1px solid red;
+    margin: 0 auto;}
 .list {
     list-style: none;
 }
@@ -42,6 +55,25 @@ color: var(--title-text-color);
 }
 .header {
 background-color: var(--white-text);
+padding-top: 24px;
+padding-bottom: 24px;
+
+}
+.container-header {
+    display: flex;
+}
+.header-navigation {
+    display: flex;
+}
+.header-list {
+    display: flex;
+    margin-left: 76px;
+}
+.list {
+    margin-left: auto;
+}
+.header-item:not( :last-child){
+    margin-right: 40px;
 }
 .header-link {
  font-weight: 600;
@@ -67,6 +99,12 @@ font-weight: 400;
 letter-spacing: 0.02em;
 color: var(--prime-text-color);
 }
+.list {
+    display: flex;
+}
+.contact-list:not( :last-child) {
+    margin-right: 40px;
+} 
 .contact-list:hover {
     color: var(--accent-color);
 }
@@ -75,6 +113,8 @@ color: var(--prime-text-color);
 }
 .hero-section-one {
     background-color: var(--title-text-color);
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 .hero-title {
 font-weight: 600;
@@ -82,6 +122,15 @@ font-size: 56px;
 line-height: 1.09;
 letter-spacing: 0.02em;
 color: var(--white-text);
+margin-bottom: 48px;
+
+}
+.hero-section-two {
+    padding-bottom: 120px;
+}
+.one {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .hero-btn {
 font-family: 'Roboto';
@@ -106,6 +155,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--title-text-color);
+margin-bottom: 8px;
 }
 .hero-text {
 font-weight: 400;
@@ -118,6 +168,7 @@ font-size: 36px;
 line-height: 1.1;
 letter-spacing: 0.02em;
 color: var(--title-text-color);
+margin-bottom: 72px;
 }
 .team {
 font-weight: 600;
@@ -126,14 +177,19 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--title-text-color);
 background-color: var(--white-text);
+margin-bottom: 8px;
+
 }
 .hero-section-team {
 background: var(--white);
+padding-top: 120px;
+padding-bottom: 120px;
 }
 .activity {
 font-weight: 400;
 letter-spacing: 0.02em;
 color: var(--prime-text-color);
+margin-bottom: 32px;
 }
 .ending-text {
 font-weight: 400;
@@ -142,6 +198,10 @@ color: var(--white-background);
 }
 .team-link {
 background: var(--white-text);
+
+}
+.photo {
+    margin-bottom: 32px;
 }
 .studio-ending {
 font-family: 'Raleway'sans-serif;
@@ -152,7 +212,12 @@ color: var(--white);
 }
 .ending {
     background: var(--title-text-color);
+    padding-top: 100px;
+    padding-bottom: 100px;
 
+}
+.logo link {
+    margin-bottom: 16px;
 }
 
 /* ------------Porfolio */
@@ -185,6 +250,7 @@ color: var(--title-text-color)
 .contact:hover, .contact:focus  {
     color: var(--accent-color)
 }
+
 
 .list {
     list-style: none;
